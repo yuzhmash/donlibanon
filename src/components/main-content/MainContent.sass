@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap')
+
+// MainContent Styles
+.main
+  height: calc(100vh - 88px)
+  background-color: #000
+  position: relative
+
+  &__wrapper
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    text-align: center
+
+  &__logo
+    width: 100%
+    max-width: 600px
+    margin-bottom: 20px
+
+    img
+      width: 100%
+      height: auto
+
+  &__menu
+    font-family: "Montserrat", sans-serif
+    font-weight: 700
+
+    a
+      font-size: 40px
+      color: #fff
+      text-decoration: none
+      border-bottom: 2px solid rgba(255, 255, 255, 1)
+      transition: .3s all
+
+      &:hover
+        color: rgba(255, 255, 255, 0.7)
+        border-bottom: 2px solid rgba(255, 255, 255, 0.7)
+
+  @media (max-width: 768px)
+    &__menu a
+      font-size: 32px
+
+  @media (max-width: 480px)
+    &__menu a
+      font-size: 28px

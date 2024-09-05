@@ -1,0 +1,180 @@
+{
+    "header": {
+        "menu": "menu",
+        "contacts": "contacts",
+        "feedback": "feedback"
+    },
+    "footer": {
+        "address": "Address",
+        "hours": {
+            "title": "Working hours",
+            "time": "Mon-Sun: 11:00 AM - 7:00 PM"
+        },
+        "number": "Contact number"
+    },
+    "navbar": {
+        "plates": "Plates",
+        "wraps": "Wraps",
+        "salads": "Salads",
+        "kidsMenu": "Kids' Menu",
+        "bucket": "Bucket",
+        "friedChicken": "Fried Chicken",
+        "meza": "Meza",
+        "drinks": "Drinks"
+    },
+    "contacts": "OUR CONTACTS",
+    "feedback": {
+        "title": "Leave your feedback",
+        "description": "Share your impressions and suggestions for improving our institution. All feedback will be forwarded to the management.",
+        "emojis": ["Perfect", "Okay", "Bad"],
+        "comment": {
+            "title": "Comment on the order",
+            "input": "Leave a comment"
+        },
+        "phone": {
+            "title": "Leave your phone number for feedback"
+        },
+        "button": "send",
+        "message": {
+            "title": "Your feedback is accepted!",
+            "subtitle": "Thank you for helping us get better",
+            "button": "Home"
+        }
+    },
+    "menu": {
+        "plates": [
+            {
+                "title": "KAFTA SKEWERS",
+                "ingredient": "MINCED MEAT SKEWERS WITH ONION, PARSLEY, AND LEBANESE SPICES, SERVED WITH FRIES OR RICE AND ORIENTAL GARLIC SAUCE"        
+            },
+            {
+                "title": "CHICKEN SKEWERS",
+                "ingredient": "marinated chicken skewers, Lebanese spices, served with fries or rice and oriental garlic sauce"        
+            },
+            {
+                "title": "CRISPY CHICKEN",
+                "ingredient": "CHICKEN FILLET WITH FRIES AND VÄSTERBOTTEN DRESSING (4 PCS)"        
+            },
+            {
+                "title": "FRIED CHICKEN",
+                "ingredient": "FRIED CHICKEN WITH CRISPER POTATOES AND GARLIC SAUCE (4 PCS)"        
+            }
+        ],
+        "wraps": [
+            {
+                "title": "SHAWARMA",
+                "ingredient": "MARINATED CHICKEN STRIPS, PICKLES SERVED WITH FRIES AND GARLIC SAUCE"        
+            },
+            {
+                "title": "SHAWARMA SUJUK",
+                "ingredient": "WELL-SEASONED LEBANESE-SPICED MEAT, PICKLES, TOMATO, FRIES, AND GARLIC SAUCE"        
+            },
+            {
+                "title": "FALAFEL WRAP",
+                "ingredient": "GARLIC SAUCE, LETTUCE, TOMATO, CUCUMBER, ONION, AND FRIES"        
+            }
+        ],
+        "salads": [
+            {
+                "title": "SALAD WITH POMEGRANATE AND AVOCADO",
+                "ingredient": "WITH FRISÉE, FRILLICHE, ROSÉ, AND LOLLO ROSSO"        
+            },
+            {
+                "title": "FALAFEL SALAD",
+                "ingredient": "WITH TOMATO, CUCUMBER, PEPPERONCINI, ONION, GARLIC DRESSING (5 PCS)"        
+            },
+            {
+                "title": "HALLOUMI SALAD",
+                "ingredient": "WITH TOMATO, CUCUMBER, AND SOUR CREAM"        
+            }
+        ],
+        "kidsMenu": [
+            {
+                "title": "CRISPY CHICKEN",
+                "ingredient": "CHICKEN FILLET WITH FRIES AND VÄSTERBOTTEN DRESSING (2 PCS)"        
+            },
+            {
+                "title": "NUGGETS",
+                "ingredient": "CHICKEN NUGGETS WITH FRIES AND GARLIC SAUCE (6 PCS)"        
+            },
+            {
+                "title": "FALAFEL PLATE",
+                "ingredient": "WITH FRIES, VEGETABLES, AND GARLIC SAUCE (6 PCS)"        
+            }
+        ],
+        "bucket": [
+            {
+                "title": "BUCKET",
+                "ingredient": "BROASTED/Fried CHICKEN (8, 12, 16 PCS) WITH COLESLAW, CRISPER POTATOES, GARLIC SAUCE, AND BBQ SAUCE"        
+            }
+        ],
+        "friedChicken": [
+            {
+                "title": "FRIED CHICKEN",
+                "ingredient": "FRIED CHICKEN WITH CRISPER POTATOES AND GARLIC SAUCE (4 PCS)"        
+            }
+        ],
+        "meza": [
+            {
+                "title": "Hummus",
+                "ingredient": "Ground chickpeas with tahini, lemon, and salt"        
+            },
+            {
+                "title": "Tabbouleh",
+                "ingredient": "Bulgur wheat, finely chopped parsley, tomatoes, onions, lemon, and olive oil"        
+            },
+            {
+                "title": "Baba Ghanoush",
+                "ingredient": "Eggplant cream with tahini, garlic, lemon, and salt"        
+            },
+            {
+                "title": "Tzatziki",
+                "ingredient": "Yogurt, cucumber, garlic, and mint"        
+            },
+            {
+                "title": "Falafel",
+                "ingredient": "Chickpea patties with parsley, spices, and garlic sauce (6 pcs)"        
+            },
+            {
+                "title": "Freshly baked garlic bread",
+                "ingredient": ""        
+            },
+            {
+                "title": "Mhamra",
+                "ingredient": "Mhamra with tomato, paprika, garlic, seven spices, olive oil, and walnuts"        
+            },
+            {
+                "title": "Bruschetta",
+                "ingredient": "Fresh tomato, garlic, olive oil, on rustic country bread"        
+            },
+            {
+                "title": "KUBBEH",
+                "ingredient": "kubbeh, bulgur, chopped onion, and beef (3 pcs)"        
+            },
+            {
+                "title": "Sambosa",
+                "ingredient": "Sambosa pastry 3 pcs, filled with salad cheese & Västerbotten cheese, parsley"        
+            },
+            {
+                "title": "Olives",
+                "ingredient": ""        
+            },
+            {
+                "title": "Fried Halloumi",
+                "ingredient": ""        
+            },
+            {
+                "title": "Grape leaves",
+                "ingredient": "Grape leaves stuffed with rice, parsley, olive oil, and tomato (6 pcs)"        
+            }
+        ],
+        "drinks": [
+            {"title": "Coca-Cola", "ingredient": ""},
+            {"title": "Fanta", "ingredient": ""},
+            {"title": "Trocadero", "ingredient": ""},
+            {"title": "Loka", "ingredient": ""},
+            {"title": "Ayran", "ingredient": ""},
+            {"title": "Festis", "ingredient": ""}
+        ]
+   }
+}

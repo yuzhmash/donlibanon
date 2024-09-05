@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap')
+
+.feedback
+    margin: 0 auto
+    width: 100%  // Full width for responsiveness
+    max-width: 560px  // Max width for larger screens
+    border: 1px solid #d61111
+    margin-top: 50px
+    margin-bottom: 100px
+    border-radius: 4px
+    padding: 18px
+
+    &__title
+        font-family: "Montserrat"
+        font-weight: 800
+        font-size: 26px
+
+    &__phone
+        margin-top: 15px
+
+    &__comment, &__phone
+        font-family: "Montserrat"
+        font-weight: 600
+        font-size: 14px
+        margin-bottom: 10px
+
+        span
+            color: #D61111
+
+        &__textarea
+            width: 100%
+            height: 120px
+            border: 1px solid #E3E3E3
+            padding: 9px
+            margin-bottom: 5px
+            font-family: "Montserrat"
+            font-weight: 500
+            color: #575757
+            resize: none
+
+        &__input
+            width: 100%
+            height: 35px
+            border: 1px solid #E3E3E3
+            padding: 9px
+            margin-bottom: 5px
+            font-family: "Montserrat"
+            font-weight: 500
+            color: #575757
+
+            &::placeholder
+                color: #787878
+
+    &__subtitle
+        font-family: "Montserrat"
+        font-weight: 500
+        font-size: 14px
+        color: #787878
+        margin-bottom: 35px
+
+    &__blocks
+        display: flex
+        flex-wrap: nowrap  // Prevent wrapping
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 20px
+        padding: 0
+        overflow-x: auto  // Allow horizontal scrolling if needed
+
+    &__block
+        border: 1px solid #d61111
+        width: 100%  // Full width on small screens
+        max-width: 150px  // Max width for larger screens
+        min-height: 100px
+        font-size: 60px
+        text-align: center
+        cursor: pointer
+        list-style-type: none
+        margin: 0 5px 10px 5px  // Adjust spacing between blocks
+
+        span
+            display: block
+            font-size: 16px
+            margin-bottom: 20px
+
+    button
+        position: relative
+        display: block
+        width: 100%
+        height: 35px
+        margin-top: 15px
+        border: none
+        border-radius: 5px
+        cursor: pointer
+        font-family: "Montserrat"
+        font-weight: 500
+        font-size: 18px
+        background-color: #D61111
+        color: rgba(255, 255, 255, 1)
+        transition: .1s all
+
+        span
+            display: block
+            text-align: center
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+        a
+            display: block
+            width: 100%
+            height: 100%
+            color: #f3f3f3
+            text-decoration: none
+
+        &:hover
+            background-color: rgba(214, 17, 17, .7)
+            color: rgba(255, 255, 255, .7)
+
+        &:disabled
+            background-color: rgba(214, 17, 17, .7)
+            color: rgba(255, 255, 255, .7)
+
+    &__message
+        padding: 150px
+        height: calc(100vh - 199px - 88px)
+
+        &__title, &__subtitle
+            font-family: "Montserrat"
+            text-align: center
+            margin: 0
+
+        &__title
+            font-weight: 600
+            margin-bottom: 10px
+
+        &__subtitle
+            font-weight: 400
+            margin-bottom: 30px
+
+        a
+            position: relative
+            display: block
+            margin: 0 auto
+            width: 90px
+            height: 40px
+            font-family: "Montserrat"
+            font-weight: 500
+            font-size: 18px
+            text-decoration: none
+            color: #000
+            border-radius: 7px
+            border: 1px solid #E3E3E3
+            background-color: rgba(0, 0, 0, 0)
+            transition: .1s all
+            cursor: pointer
+
+            span
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+
+            &:hover
+                color: rgba(0, 0, 0, .6)
+                border: 1px solid rgba(227, 227, 227, .6)
+
+.xyi
+    background-color: #D61111
+    color: #fff
+
+// Media Queries
+
+@media screen and (max-width: 992px)
+    .feedback
+        margin-top: 30px
+        margin-bottom: 60px
+
+        &__title
+            font-size: 22px
+
+        &__comment, &__phone
+            font-size: 12px
+
+        &__textarea
+            height: 100px
+
+        &__input
+            height: 30px
+
+        &__subtitle
+            font-size: 12px
+
+        &__blocks
+            &__block
+                font-size: 50px  // Smaller font size
+                max-width: 120px  // Adjust max-width
+                min-height: 80px  // Adjust min-height
+
+@media screen and (max-width: 768px)
+    .feedback
+        padding: 15px
+        width: 90%
+
+        &__title
+            font-size: 18px
+
+        &__comment, &__phone
+            font-size: 11px
+
+        &__textarea
+            height: 80px
+
+        &__input
+            height: 28px
+
+        &__subtitle
+            font-size: 11px
+
+        button
+            font-size: 16px
+
+        &__message
+            padding: 100px
+
+        &__blocks
+            &__block
+                font-size: 40px  // Smaller font size
+                max-width: 100px  // Adjust max-width
+                min-height: 60px  // Adjust min-height
+
+@media screen and (max-width: 480px)
+    .feedback
+        width: 100%
+        margin-top: 20px
+        margin-bottom: 40px
+        border: none
+
+        &__title
+            font-size: 16px
+
+        &__comment, &__phone
+            font-size: 10px
+
+        &__textarea
+            height: 60px
+
+        &__input
+            height: 25px
+
+        &__subtitle
+            font-size: 10px
+
+        button
+            font-size: 14px
+
+        &__message
+            padding: 80px
+
+        &__block
+            font-size: 46px

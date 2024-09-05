@@ -1,0 +1,182 @@
+{
+    "header": {
+        "menu": "meny",
+        "contacts": "kontakter",
+        "feedback": "feedback"
+    },
+    "footer": {
+        "address": "Adress",
+        "hours": {
+            "title": "Öppettider",
+            "time": "Mån-Sön: 11:00 - 19:00"
+        },
+        "number": "Telefonnummer"
+    },
+    "navbar": {
+        "plates": "Tallrikar",
+        "wraps": "Rullar",
+        "salads": "Sallader",
+        "kidsMenu": "Barn meny",
+        "bucket": "Bucket",
+        "friedChicken": "Friterad kyckling",
+        "meza": "Meza",
+        "drinks": "Drycker"
+    },
+    "contacts": "VÅRA KONTAKTER",
+    "feedback": {
+        "title": "Lämna din feedback",
+        "description": "Dela dina intryck och önskemål för förbättring av vår institution. All feedback kommer att vidarebefordras till ledningen.",
+        "emojis": ["Perfekt", "Normalt", "Dåligt"],
+        "comment": {
+            "title": "Kommentera beställningen",
+            "input": "lämna en kommentar"
+        },
+        "phone": {
+            "title": "Lämna ditt telefonnummer för återkoppling"
+        },
+        "button": "skicka",
+        "message": {
+            "title": "Din feedback är mottagen!",
+            "subtitle": "Tack för att du hjälper oss att bli bättre",
+            "button": "Hem"
+        }
+    },
+    "menu": 
+        {
+            "plates": [
+                {
+                    "title": "KAFTA SPETT",
+                    "ingredient": "KÖTTFÄRSSPETT MED LÖK, PERSILJA OCH LIBANESISKA KRYDDOR, SERVERAS MED STRIPS ELLER RIS OCH ORIENTALISK VITLÖKSSÅS"
+                },
+                {
+                    "title": "KYCKLINGSPETT",
+                    "ingredient": "MARINERADE KYCKLINGSPETT, LIBANESISKA KRYDDOR, SERVERAS MED STRIPS ELLER RIS OCH ORIENTALISK VITLÖKSSÅS"
+                },
+                {
+                    "title": "CRISPY KYCKLING",
+                    "ingredient": "KYCKLINGFILÉ MED POMMES OCH VÄSTERBOTTENDRESSING (4 ST)"
+                },
+                {
+                    "title": "FRITERAD KYCKLING",
+                    "ingredient": "FRITERAD KYCKLING MED CRISPERS POTATIS OCH VITLÖKSSÅS (4 ST)"
+                }
+            ],
+            "wraps": [
+                {
+                    "title": "SHAWARMA",
+                    "ingredient": "MARINERADE KYCKLINGSTRIMLOR, SALTGURKA MED STRIPS OCH VITLÖKSSÅS"
+                },
+                {
+                    "title": "SHAWARMA SUJUK",
+                    "ingredient": "BRA MEDIUM LIBANESISK KRYDDAT KÖTT, SALTGURKA, TOMAT, STRIPS OCH VITLÖKSSÅS"
+                },
+                {
+                    "title": "FALAFEL RULLE",
+                    "ingredient": "VITLÖKSSÅS, SALLAD, TOMAT, GURKA, LÖK OCH STRIPS"
+                }
+            ],
+            "salads": [
+                {
+                    "title": "SALLAD MED GRANATÄPPLE OCH AVOKADO",
+                    "ingredient": "MED FRISÉE, FRILLICHE, ROSÉ OCH LOLLO ROSSO"
+                },
+                {
+                    "title": "FALAFEL SALLAD",
+                    "ingredient": "MED TOMAT, GURKA, PEPPERONCINI, LÖK, VITLÖKSDRISSNING (5 ST)"
+                },
+                {
+                    "title": "HALLOUMI SALLAD",
+                    "ingredient": "MED TOMAT, GURKA OCH SOUR CREAM"
+                }
+            ],
+            "kidsMenu": [
+                {
+                    "title": "CRISPY KYCKLING",
+                    "ingredient": "KYCKLINGFILÉ MED POMMES OCH VÄSTERBOTTENDRESSING (2 ST)"
+                },
+                {
+                    "title": "NUGGETS",
+                    "ingredient": "KYCKLINGNUGGETS MED STRIPS OCH VITLÖKSSÅS (6 ST)"
+                },
+                {
+                    "title": "FALAFEL TALLRIK",
+                    "ingredient": "MED POMMES, GRÖNSAKER OCH VITLÖKSSÅS (6 ST)"
+                }
+            ],
+            "bucket": [
+                {
+                    "title": "BUCKET",
+                    "ingredient": "BROASTEDMFRIED CHICKEN (8, 12, 16) MED COLESLAW, CRISPERS POTATO, VITLÖKSSÅS OCH BBQ SÅS"        
+                }
+            ],
+            "friedChicken": [
+                {
+                    "title": "FRITERAD KYCKLING",
+                    "ingredient": "FRITERAD KYCKLING MED CRISPERS POTATO OCH VITLÖKSSÅS (4 ST)"        
+                }
+            ],
+            "meza": [
+                {
+                    "title": "Hummus",
+                    "ingredient": "Mald kikärtor med tahini, citron och salt"        
+                },
+                {
+                    "title": "Tabouli",
+                    "ingredient": "Bulgur, finhackad persilja, tomater, lök, citron och olivolja"        
+                },
+                {
+                    "title": "Baba Ghanoj",
+                    "ingredient": "Auberginekräm med tahini, vitlök, citron och salt"        
+                },
+                {
+                    "title": "Tzatziki",
+                    "ingredient": "Yoghurt, gurka, vitlök och mynta"        
+                },
+                {
+                    "title": "Falafel",
+                    "ingredient": "Kikärtsbiffar med persilja, kryddor och vitlökssås (6 st)"        
+                },
+                {
+                    "title": "Vitlöksbröd Färskgräddat",
+                    "ingredient": ""        
+                },
+                {
+                    "title": "Mhamra",
+                    "ingredient": "MHAMRA TOMAT, PAPRIKA, VITLÖK OCH SJU KRYDDOR, OLIVOLJA 0CH VALNÖTTER"        
+                },
+                {
+                    "title": "Bruschetta",
+                    "ingredient": "BRUSCHETTA FÄRSK TOMAT, VITLÖK OLIVOLJA, GROVT LANTBRÖD"        
+                },
+                {
+                    "title": "KUBBEH",
+                    "ingredient": "KUBBEH, BULGUR, HACKAD LÖK OCH NÖTKÖTT (3 ST)"        
+                },
+                {
+                    "title": "Sambosa",
+                    "ingredient": "Sambosa pirog 3 st, fyllda med salladsost & Västerbottensost persilja"        
+                },
+                {
+                    "title": "Oliver",
+                    "ingredient": ""        
+                },
+                {
+                    "title": "Friterad Halloumi",
+                    "ingredient": ""        
+                },
+                {
+                    "title": "Vinbladsdolmar",
+                    "ingredient": "Vinbladsdolmar fyllda med ris, persilja, olivolja och tomat (6 st)"        
+                }
+            ],
+            "drinks": [
+                {"title": "Coca-Cola", "ingredient": ""},
+                {"title": "Fanta", "ingredient": ""},
+                {"title": "Trocadero", "ingredient": ""},
+                {"title": "Loka", "ingredient": ""},
+                {"title": "Ayran", "ingredient": ""},
+                {"title": "Festis", "ingredient": ""}
+            ]
+        }
+    
+}

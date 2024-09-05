@@ -1,0 +1,81 @@
+.footer
+  min-height: 100px
+  padding-top: 25px
+
+  &__wrapper
+    display: flex
+    // width: 100vw
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 25px
+
+  &__number, &__address, &__email, &__time
+    font-family: "Montserrat", sans-serif
+    font-weight: 500
+    font-size: 15px
+    font-style: normal
+
+  &__title
+    font-family: "Montserrat", sans-serif
+    font-weight: 500
+    font-size: 17px
+    margin-bottom: 10px
+
+  &__media
+    width: 80px
+    display: flex
+    justify-content: space-between
+
+    &__inst, &__face
+      cursor: pointer
+      transition: .1s all
+
+      &:hover
+        color: rgba(0, 0, 0, .5)
+
+  &__subfooter
+    border-top: 1px solid #E3E3E3
+
+    &__wrapper
+      display: grid
+      width: 1240px
+      margin: 0 auto
+      grid-template-columns: repeat(3, 1fr)
+      align-items: center
+      padding: 25px 0
+
+      @media (max-width: 1240px)
+        width: 100%
+
+      @media (max-width: 768px)
+        grid-template-columns: 1fr
+        text-align: center
+
+    &__logo
+      text-align: center
+
+    &__reserved
+      text-align: left
+    &__creator
+      text-align: right
+    &__creator, &__reserved
+      font-family: "Montserrat", sans-serif
+      font-weight: 400
+      font-size: 15px
+
+      @media (max-width: 768px)
+        text-align: center
+        font-size: 12px
+
+  @media screen and (max-width: 768px)
+    .footer__address
+      font-size: 12px
+    .footer__wrapper
+        display: grid
+        grid-template-columns: repeat(1fr, 4)
+        gap: 10px
+        align-items: center
+        justify-content: center
+        text-align: center
+    .footer__media
+        margin: 0 auto
